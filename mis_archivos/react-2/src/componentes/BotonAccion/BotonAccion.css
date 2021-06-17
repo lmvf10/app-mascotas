@@ -1,0 +1,25 @@
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s;
+}
+
+.btn-info{
+  color: #fff;
+  background-color: #17a2b8; 
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

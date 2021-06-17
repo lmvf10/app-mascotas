@@ -1,0 +1,19 @@
+.actions-menu{
+    padding: 20px 15px;
+}
+.actions-menu h1{
+    padding : 20px 15px;
+}
+.row{
+    padding: 10px 0px;
+}
+.actions-menu-content{
+    display: flex;
+    justify-content: space-between;
+}
+.actions-menu-content > button.btn.btn-primary{
+    height: 40px;
+}
+.alert{
+    display: none;
+}

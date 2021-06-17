@@ -1,0 +1,36 @@
+.actions-menu{
+    padding: 40px 30px;
+}
+
+.actions-menu h1 {
+    padding: 20px 15px;
+}
+
+.actions-menu-content {
+    display: flex;
+}
+
+.actions-menu .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.actions-menu .btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    height: 40px;
+}
+

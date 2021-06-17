@@ -1,0 +1,36 @@
+1) filtros de las entidades al listar, falta duenos, veterinarias y consultas OK
+2) refs faltantes OK
+3) revisar cuales de los handlers pueden ser genéricos OK
+4) no permitir crear dos o más duenos (OK) o veterinarias con el mismo documento (OK)
+5) verificar que la mascota exista antes de crear una consulta OK
+6) verificar que la veterinaria exista antes de crear una consulta OK
+7) verificar que el dueño exista antes de crear una mascota OK
+8) CORREGIR RESPUESTA ERRADA: tratando de editar una veterinaria, dueño, consulta, mascota que no existe la respuesta fue null OK
+9) Unificar las respuesta que contienen mensajes de error OK
+10) util mensajes error catch OK
+11) remover password de las respuestas de usuarios (crear OK) (falta: listar (OK), actualizar (OK), obtener uno (OK)), remover del populate de consultas (OK) y de mascotas (OK);
+12) autenticación con JWT OK
+13) comentario sesión anterior: el registro del usuario no debería pedir token OK
+14) encriptar el password OK
+15) bcrypt asíncronas OK
+15.1) funciones de jwt asíncronas, mostrar el ejemplo de verifyPromise OK
+16) roles de usuario OK
+16.1) permisos de usuario
+16.2) agregar el token automaticamente en los requests de postman OK
+17) verificar middleware existe documento de PUT /usuarios OK
+18) registro publico de dueños de mascotas OK, passport login con facebook (solo con fines académicos) OK
+19) crear notas aclaratorias OK
+20) crear archivo con todos los middlewares OK
+21) cambiar referencias por objetos completos en los schemas/modelos
+ - consultas: mascota OK, veterinaria
+ - notas: veterinaria
+ - mascotas: dueno
+
+
+Para el futuro:
+- paginación
+- dueno está listando consultas que no debería de ver
+
+
+
+

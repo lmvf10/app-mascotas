@@ -1,0 +1,40 @@
+{
+  "name": "express02",
+  "version": "1.0.0",
+  "description": "proyecto de express para fullstack javascript dev en español de udemy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/camilomontoyau/bootcamp-hablemos-de-programacion.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "fullstack",
+    "javascript",
+    "udemy",
+    "español"
+  ],
+  "author": "camilomontoya2@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilomontoyau/bootcamp-hablemos-de-programacion/issues"
+  },
+  "homepage": "https://github.com/camilomontoyau/bootcamp-hablemos-de-programacion#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.14",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "uuid": "^8.3.1"
+  }
+}

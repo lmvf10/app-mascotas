@@ -1,0 +1,9 @@
+{
+  "prettier.proseWrap": "never",
+  "prettier.disableLanguages": [
+    "markdown"
+  ],
+  "editor.defaultFormatter": "vscode.emmet",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true
+}
